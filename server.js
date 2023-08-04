@@ -1,7 +1,7 @@
 const express = require('express')
 const binario = require('./modules/binario.js')
 const hexadecimal = require('./modules/hexadecimal.js')
-const octadecimal = require('./modules/octadecimal.js')
+const octal = require('./modules/octal.js')
 
 const app = express()
 const port = 3000
@@ -17,7 +17,7 @@ app.get('/:numero', (req, res) => {
     res.status(200).json({
         decimal: Number( numero ),
         binario: Number( binario(numero) ),
-        octadecimal: Number( octadecimal(numero) ),
+        octal: Number( octal(numero) ),
         hexadecimal: hexadecimal( numero ),
         status: 200
     })
