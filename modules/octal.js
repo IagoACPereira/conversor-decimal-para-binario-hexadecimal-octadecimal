@@ -1,4 +1,4 @@
-function octadecimal(numero) {
+function octal(numero) {
     
     if (!Number(numero)) {
 
@@ -19,15 +19,15 @@ function octadecimal(numero) {
         }
         modsNum.push(num)
 
-        const octadecimal = modsNum
+        const octal = modsNum
         .reverse()
         .join()
         .replaceAll(',', '')
 
-        return octadecimal
+        return octal
 
     }
     
 }
 
-module.exports = octadecimal
+module.exports = octal
