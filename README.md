@@ -1,4 +1,4 @@
-# conversor-decimal-para-binario-hexadecimal-octal
+# Conversor Decimal Para Binário, Hexadecimal e Octal
 
 ### API para conversão de números decimais para binário, hexadecimal e octal.
 
