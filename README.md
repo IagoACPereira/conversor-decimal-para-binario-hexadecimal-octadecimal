@@ -5,4 +5,8 @@
 ## Endpoints
 
 - GET "/" : Objetivo da API;
-- GET "/:numero" : Inserção de um número decimal para converção;
+- GET "/:numero" : Inserção de um número decimal para converção passado por parâmetro.
+
+## Teste Aqui
+
+
